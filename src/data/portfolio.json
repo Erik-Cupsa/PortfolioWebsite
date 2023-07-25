@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/Chatbot.png", 
+            "title": "StudySmartBot", 
+            "description": "React, Node.js, WebSocket, MongoDB", 
+            "url": "http://google.com"
+        }, 
+        {
+            "cover": "/portfolio/FPL.png", 
+            "title": "PremierZone Fantasy", 
+            "description": "React, Python, PostgreSQL", 
+            "url": "https://github.com/Erik-Cupsa/Full-Stack-Premier-League-Fantasy-Website"
+        },
+        {
+            "cover": "/portfolio/Jetpack.png", 
+            "title": "Super GTA Adventure", 
+            "description": "HTML, CSS, JavaScript", 
+            "url": "https://github.com/Erik-Cupsa/SuperGTAAdventure"
+        }
+    ]
+}

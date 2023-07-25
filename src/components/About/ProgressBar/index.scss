@@ -1,0 +1,67 @@
+
+.progress-bar {
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    height: 20px;
+    border-radius: 5px;
+    width: 0;
+  }
+
+  .python-progress .progress {
+    background-color: #ffd700;
+  }
+  
+  .java-progress .progress {
+    background-color: #FF8C00;
+  }
+  
+  .web-progress .progress {
+    background-color: #2ecc71;
+  }
+
+  .sql-progress .progress {
+    background-color: #8e44ad;
+  }
+
+  .c-progress .progress {
+    background-color: #34495e;
+  }
+
+  .vhdl-progress .progress {
+    background-color: #3a5a40;
+  }
+
+  .react-progress .progress {
+    background-color: #61DAFB;
+  }
+
+  .aws-progress .progress {
+    background-color: #232F3E;
+  }
+
+  .azure-progress .progress {
+    background-color: #FDB813;
+  }
+
+  .postman-progress .progress {
+    background-color: #FF6C37;
+  }
+
+  .pbi-progress .progress {
+    background-color: #00B8AA;
+  }
+
+  .github-progress .progress {
+    background-color: #181717;
+  }
+
+  .language-info {
+  margin-left: 10px;
+  color: #fff; 
+}
+  
