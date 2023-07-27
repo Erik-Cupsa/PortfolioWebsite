@@ -93,3 +93,57 @@
         color: #333;
     }
 }
+
+@media screen and (max-width: 1200px){
+  .stage-cube-cont {
+    position: initial; 
+    width: 100%; 
+    height: 0%; 
+    overflow: visible; 
+  }
+  .cubespinner {
+    transform-origin: 100% 0 0;
+    position: absolute; 
+    top: 50px; 
+    right: 80px;
+  
+    div {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border: 1px solid #ccc;
+      background: rgba(255, 255, 255, 0.4);
+      text-align: center;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 20px 0px lightyellow;
+    }
+  
+    .face1 {
+      transform: translateZ(25px);
+      color: #232f3e;
+    }
+    .face2 {
+      transform: rotateY(90deg) translateZ(25px);
+    }
+    .face3 {
+      transform: rotateY(90deg) rotateX(90deg) translateZ(25px);
+    }
+    .face4 {
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(25px);
+    }
+    .face5 {
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(25px);
+    }
+    .face6 {
+      transform: rotateX(-90deg) translateZ(25px);
+    }
+  }
+
+  .flat-button { 
+    font-size: 2vw; 
+    letter-spacing: 0.4em; 
+  }
+}

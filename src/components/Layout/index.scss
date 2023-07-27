@@ -195,3 +195,30 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px){
+  .page{
+    position: relative;
+    min-height: 100vh; 
+    background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
+  }
+  .container{
+    position: initial; 
+    height: auto; 
+    min-height: auto;
+
+    &.about-page, 
+    &.contact-page, 
+    &.work-page, 
+    &.portfolio-page{
+      .text-zone{
+        position: initial; 
+        transform: none; 
+        width: 100%;
+        display: block; 
+        padding: 20px; 
+        box-sizing: border-box;
+      }
+    }
+  }
+}

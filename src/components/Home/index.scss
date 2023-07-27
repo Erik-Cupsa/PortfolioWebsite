@@ -73,3 +73,45 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px){
+    .home-page{
+        h1{
+            font-size: 40px; 
+        }
+        .text-zone{
+            position: initial;
+            width: 100%; 
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .logo-container {
+            position: relative; 
+            width: 250px;
+            height: auto; 
+            top: 50px; 
+            right: 0; 
+            box-sizing: border-box; 
+            margin: auto; 
+            left: 0; 
+
+            svg{
+                position: absolute; 
+                top: auto; 
+                right: auto; 
+                bottom: auto; 
+                left: 0;
+                margin: auto;
+            }
+        }
+
+        .flat-button{
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto; 
+            width: 125px;
+        }
+    }
+}
