@@ -76,8 +76,18 @@
 
 @media screen and (max-width: 1200px){
     .home-page{
+        .logo-container {
+            width: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    
+    .home-page{
         h1{
             font-size: 40px; 
+            justify-content: center;
         }
         .text-zone{
             position: initial;
@@ -85,6 +95,8 @@
             transform: none;
             padding: 10px;
             box-sizing: border-box;
+            display: inline-block;
+            text-align: left;
         }
 
         .logo-container {
@@ -110,7 +122,6 @@
         .flat-button{
             float: none;
             display: block;
-            margin: 20px auto 0 auto; 
             width: 125px;
         }
     }
