@@ -7,7 +7,7 @@
     top: 100px;
     right: 15%;
     bottom: 0;
-    left: 750px;
+    left: calc(50%);
     margin: auto;
     rotate: -30deg;
   
@@ -36,3 +36,25 @@
     stroke: #ffd700;
     stroke-width: 10;
   }
+
+  @media (max-width: 1000px) {
+    .job1-logo-container {
+      position: relative; 
+      width: 250px;
+      height: auto; 
+      top: 5px;
+      right: 0; 
+      box-sizing: border-box; 
+      margin: auto; 
+      left: -100px; 
+
+      svg{
+          position: absolute; 
+          top: auto; 
+          right: auto; 
+          bottom: auto; 
+          left: 0;
+          margin: auto;
+      }
+  }
+}

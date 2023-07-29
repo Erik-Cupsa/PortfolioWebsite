@@ -28,8 +28,8 @@ const Work = () => {
                     </h1>
                     <Timeline />
                 </div>
-                <Logo1/>
             </div>
+            <Logo1/>
             <Loader type="pacman" />
         </>
     )

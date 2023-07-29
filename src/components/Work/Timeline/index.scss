@@ -89,10 +89,25 @@
     margin: 10px 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
+    .container.work-page{
+      overflow: hidden;
+    }
     .date,
     .event-title {
       font-size: 12px;
     }
+    .timeline-container {
+      width: 70vh;
+    }
+    .text-zone{
+      margin-left: 10px;
+    }
   }
-  
+
+  @media (max-width: 600px) {
+    .timeline-container {
+      width: 39vh;
+    }
+  }
+ 

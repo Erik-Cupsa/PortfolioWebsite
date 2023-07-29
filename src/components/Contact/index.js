@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className = "text-zone">
                     <table>
                         <tr>
-                            <td class="left-side">
+                            <td className="left-side">
                                 <h1>
                                     <AnimatedLetters letterClass={letterClass} strArray = {"Contact me".split("")} idx = {15} />
                                 </h1>
@@ -67,7 +67,7 @@ const Contact = () => {
                                     </a>
                                 </p>
                             </td>
-                            <td class="right-side">
+                            <td className="right-side">
                                 <div className="contact-form" onSubmit={sendEmail}>
                                     <form ref={refForm}>
                                         <ul>

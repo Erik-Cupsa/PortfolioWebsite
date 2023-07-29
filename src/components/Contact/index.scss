@@ -84,17 +84,36 @@
         opacity: 1;
     }
 }
+.right-side{
+    padding-left: 500px;
+  }
+.left-side{
+    position: absolute;
+    width: 450px;
+    margin-top: -100px;
+  }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
+    .left-side{
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 700px){
     .map-wrap {
         float: none; 
         width: 100%; 
         height: 400px; 
         margin: 0; 
     }
-
     .info-map{
         display: none; 
+    }
+    .left-side{
+        width: 74%;
+        margin-top: -15px;
+      }
+    .icon{
+        margin: 10px;
     }
 }
 
