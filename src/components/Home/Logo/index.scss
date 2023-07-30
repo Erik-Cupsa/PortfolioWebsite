@@ -1,14 +1,15 @@
 .logo-container {
   z-index: 0;
-  width: 600px;
-  height: 600px;
-  opacity: 0;
+  width: 400px;
+  height: 400px;
+  opacity: 1;
   position: absolute;
   top: 0;
   right: 15%;
   bottom: 0;
-  left: 450px;
+  left: 550px;
   margin: auto;
+  animation: bounce 6s ease-in-out;
 
   &.animate {
     opacity: 1;
@@ -50,11 +51,62 @@
   stroke-width: 10;
 }
 
-@keyframes drawSVG {
+@keyframes bounce {
   0% {
-    stroke-dashoffset: 1000; 
+    transform: translateY(50px);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-30px);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  55% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  65% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  73% {
+    transform: translateY(-5px);
+  }
+  76% {
+    transform: translateY(0);
+  }
+  78% {
+    transform: translateY(-3px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  /* Continue adding smaller percentages and decreasing translateY values as needed */
+  85% {
+    transform: translateY(-2px);
+  }
+  90% {
+    transform: translateY(0);
+  }
+  95% {
+    transform: translateY(-1px);
   }
   100% {
-    stroke-dashoffset: 0; 
+    transform: translateY(0);
   }
 }
+
+

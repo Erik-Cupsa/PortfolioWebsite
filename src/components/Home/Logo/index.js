@@ -3,10 +3,6 @@ import LogoE from '../../../assets/images/E.png';
 import './index.scss';
 
 const Logo = () => {
-  useEffect(() => {
-    const logoContainer = document.querySelector('.logo-container');
-    logoContainer.classList.add('animate');
-  }, []);
 
   return (
     <div className="logo-container">
