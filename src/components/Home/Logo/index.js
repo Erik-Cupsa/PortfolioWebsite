@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import LogoE from '../../../assets/images/E.png';
 import './index.scss';
 
