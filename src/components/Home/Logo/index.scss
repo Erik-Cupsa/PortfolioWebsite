@@ -1,37 +1,60 @@
 .logo-container {
-    z-index: 0;
-    width: 600px;
-    height: 600px;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    right: 15%;
+  z-index: 0;
+  width: 600px;
+  height: 600px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: 450px;
+  margin: auto;
+
+  &.animate {
+    opacity: 1;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
     bottom: 0;
-    left: 450px;
+    transform: rotateZ(30deg) !important;
+
+    .svg-path {
+      stroke-dasharray: 500;
+      stroke-dashoffset: 1000;
+      animation: drawSVG 3s linear infinite; 
+    }
+  }
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
     margin: auto;
-  
-    svg {
-      width: 100%;
-      height: auto;
-      bottom: 0;
-      transform: rotateZ(30deg) !important;
-    }
-  
-    .solid-logo {
-      position: absolute;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: 0;
-      margin: auto;
-      width: 100%;
-      opacity: 0;
-      transform: rotateZ(30deg) !important;
-      z-index: 1;
+    width: 100%;
+    opacity: 0;
+    transform: rotateZ(30deg) !important;
+    z-index: 1;
+
+    &.animate {
+      opacity: 1;
     }
   }
-  
-  .svg-container {
-    stroke: #ffd700;
-    stroke-width: 10;
+}
+
+.svg-container {
+  stroke: #ffd700;
+  stroke-width: 10;
+}
+
+@keyframes drawSVG {
+  0% {
+    stroke-dashoffset: 1000; 
   }
+  100% {
+    stroke-dashoffset: 0; 
+  }
+}
