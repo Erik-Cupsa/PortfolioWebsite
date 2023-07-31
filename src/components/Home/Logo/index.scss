@@ -9,7 +9,7 @@
   bottom: 0;
   left: 550px;
   margin: auto;
-  animation: bounce 6s ease-in-out;
+  animation: bounce 8s ease-in-out;
 
   &.animate {
     opacity: 1;
@@ -53,19 +53,19 @@
 
 @keyframes bounce {
   0% {
-    transform: translateY(50px);
+    transform: translateY(-200px);
   }
   10% {
     transform: translateY(0);
   }
   20% {
-    transform: translateY(-30px);
+    transform: translateY(-100px);
   }
   30% {
-    transform: translateY(0);
+    transform: translateY(80px);
   }
   40% {
-    transform: translateY(-20px);
+    transform: translateY(-40px);
   }
   50% {
     transform: translateY(0);
@@ -94,7 +94,6 @@
   80% {
     transform: translateY(0);
   }
-  /* Continue adding smaller percentages and decreasing translateY values as needed */
   85% {
     transform: translateY(-2px);
   }
