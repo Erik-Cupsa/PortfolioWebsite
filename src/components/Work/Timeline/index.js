@@ -7,9 +7,9 @@ const Timeline = () => {
       date: 'May-September 2023',
       title: 'TRC Companies, Inc.',
       description: [
-        'Designed <b>30+ Lambda Functions in AWS</b> increasing the processing speed by <b>35% </b>and enhanced reusability by <b>50%.</b>',
-        'Implemented <b>15+ serverless workflows using Step Functions</b>, seamlessly integrating <b>REST APIs </b>and automatically storing outputs into a <b>DynamoDB database. </b>',
-        'Developed a Python script to download <b>Lambda, Step Functions, and API </b>code for publication to <b>Git</b>, saving <b>2 hours</b> per deployment.',
+        'Designed <b>30+ AWS Lambda Functions in AWS</b>, increasing the processing speed by <b>35% </b>and reusability by <b>50%</b> through leveraging <b>Lambda layers.</b>',
+        'Implemented <b>15+</b> serverless workflows using <b>AWS Step Functions</b>, seamlessly integrating <b>REST APIs </b>and rigorously tested using <b>Postman</b> to validate functionality and reliability.',
+        'Crafted a <b>Spring Boot</b> application with a <b>Drools</b> logic engine, containerized it using <b>Docker</b>, and seamlessly deployed it on <b>AWS</b> using <b>EC2</b> and <b>Elastic Beanstalk</b> for enhanced scalability and reliability.',
       ],
       expanded: false,
     },
