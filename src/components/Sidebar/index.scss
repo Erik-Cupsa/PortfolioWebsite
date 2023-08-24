@@ -1,11 +1,31 @@
-.nav-bar { 
-    background: #181818; 
-    width: 60px; 
-    height: 100%; 
-    position: absolute; 
-    top: 0; 
-    z-index: 3; 
-    min-height: 500px; 
+.nav-bar {
+    background: #181818;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+    transition: width 0.3s ease-in-out;
+
+    &:hover {
+        width: 130px;
+        .logo{
+            padding: 8px 10px; /* Adjust padding to match expanded width */
+            img {
+                width: 70%; /* Make the logo fill the expanded width */
+            }
+            .sub-logo{
+                width: 70%;
+                padding-left: 12px;
+            }
+        }
+        a{
+            &:after{
+                font-size: 18px;
+            }
+        }
+    }
     
     .logo{
         display: block; 
@@ -97,7 +117,6 @@
         a.portfolio-link { 
             &:after { 
                 content: "PORTFOLIO"; 
-                font-size: 7px;
             }
         }
 
@@ -122,7 +141,6 @@
             a {
                 padding: 7px 0; 
                 display: block; 
-                font-size: 15px; 
                 line-height: 16px; 
 
                 &:hover svg { 
