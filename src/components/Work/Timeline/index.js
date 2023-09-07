@@ -5,7 +5,7 @@ const Timeline = () => {
   const [events, setEvents] = useState([
     {
       date: 'May-September 2023',
-      title: 'Tech Company',
+      title: 'TRC Consulting, Inc.',
       description: [
         'Designed <b>30+ AWS Lambda Functions in AWS</b>, strategically leveraging <b>Lambda layers</b> to increase processing speed by <b>35% </b>and re-usability by <b>52%</b>, resulting in cost savings of <b>$1,000</b> per large scale deployment',
         'Implemented <b>15+</b> serverless workflows using <b>AWS Step Functions</b>, seamlessly integrating <b>REST APIs </b>and rigorously tested with <b>Postman</b>, resulting in a <b>65%</b> reduction in execution time and enhanced operational efficiency',
@@ -15,7 +15,7 @@ const Timeline = () => {
     },
     {
       date: 'May-September 2022',
-      title: 'Tech Company',
+      title: 'Government Of Canada',
       description: [
         'Automated documentation on <b>Azure</b> by constructing a custom <b>Python pipeline</b> to convert PDF and word files to Markdown syntax, saving <b>95%</b> of wiki writing time',
         'Engineered <b>Python</b> code to efficiently extract and process <b>100+</b> codes from a <b>data lake</b>, seamlessly integrating them into a <b>pipeline</b> for subsequent extraction and analysis, streamlining data workflows and enhancing data utilization',
