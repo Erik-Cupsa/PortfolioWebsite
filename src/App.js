@@ -9,6 +9,8 @@ import Portfolio from './components/Portfolio';
 import Work from './components/Work';
 import Tech from './components/About/Tech';
 import Dev from './components/About/Dev';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   useEffect(() => {
@@ -28,6 +30,7 @@ function App() {
           <Route path="work" element={<Work />} />
         </Route>
       </Routes>
+      <Analytics />
     </>
   );
 }
