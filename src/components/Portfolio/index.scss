@@ -59,7 +59,7 @@
         }
 
         .description {
-            font-size: 14px;
+            font-size: 12.5px;
             margin-bottom: 5px;
             color: #fff;
             font-weight: 700;
@@ -132,6 +132,9 @@
         .image-box{
             height: 200px; 
             max-width: calc(50% - 10px);
+            .content{
+                transition: none;
+            }
         }
         .images-container {
             display: flex;

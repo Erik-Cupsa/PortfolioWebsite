@@ -4,6 +4,16 @@ import './index.scss';
 const Timeline = () => {
   const [events, setEvents] = useState([
     {
+      date: 'May-September 2024',
+      title: 'TRC Consutling, Inc.',
+      description: [
+        'Engineered <b>NLP models</b>, including <b>BERT</b> and <b>attention models</b>, to analyze software engineering requirements and generate accurate dependency lists, improving project planning efficiency by <b>37%</b>',
+        'Analyzed <b>1200+</b> software requirements monthly using <b>scikit-learn</b>, <b>spaCy</b>, and <b>NLTK</b>, saving the company <b>$20,000 annually</b> by decreasing project lead times',
+        'Applied advanced <b> Large Language Models (LLMs)</b> to optimize requirement analysis, resulting in a <b>20% decrease</b> in project resource allocation errors',
+      ],
+      expanded: false,
+    },
+    {
       date: 'May-September 2023',
       title: 'TRC Consulting, Inc.',
       description: [

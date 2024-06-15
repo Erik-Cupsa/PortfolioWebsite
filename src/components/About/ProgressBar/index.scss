@@ -19,6 +19,17 @@
   .java-progress .progress {
     background-color: #FF8C00;
   }
+  .golang-progress .progress {
+    background-color: #008080;
+  }
+
+  .nlp-progress .progress {
+    background-color: #c5b0d5;
+  }
+
+  .vue-progress .progress {
+    background-color: #42b883;
+  }
   
   .web-progress .progress {
     background-color: #2ecc71;
@@ -30,6 +41,9 @@
 
   .c-progress .progress {
     background-color: #34495e;
+  }
+  .llm-progress .progress {
+    background-color: #1a237e;
   }
 
   .vhdl-progress .progress {
@@ -44,7 +58,7 @@
     background-color: #232F3E;
   }
   .node-progress .progress {
-    background-color: #68A063;
+    background-color: #333333;
   }
 
   .azure-progress .progress {
