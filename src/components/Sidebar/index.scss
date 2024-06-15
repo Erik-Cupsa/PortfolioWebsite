@@ -8,24 +8,24 @@
     min-height: 500px;
     transition: width 0.3s ease-in-out;
 
-    &:hover {
-        width: 130px;
-        .logo{
-            padding: 8px 10px; /* Adjust padding to match expanded width */
-            img {
-                width: 70%; /* Make the logo fill the expanded width */
-            }
-            .sub-logo{
-                width: 70%;
-                padding-left: 12px;
-            }
-        }
-        a{
-            &:after{
-                font-size: 18px;
-            }
-        }
-    }
+    // &:hover {
+    //     width: 130px;
+    //     .logo{
+    //         padding: 8px 10px; /* Adjust padding to match expanded width */
+    //         img {
+    //             width: 70%; /* Make the logo fill the expanded width */
+    //         }
+    //         .sub-logo{
+    //             width: 70%;
+    //             padding-left: 12px;
+    //         }
+    //     }
+    //     a{
+    //         &:after{
+    //             font-size: 18px;
+    //         }
+    //     }
+    // }
     
     .logo{
         display: block; 
@@ -112,11 +112,13 @@
         a.contact-link { 
             &:after { 
                 content: "CONTACT"; 
+                font-size: 7px; 
             }
         }
         a.portfolio-link { 
             &:after { 
                 content: "PORTFOLIO"; 
+                font-size: 6px; 
             }
         }
 
