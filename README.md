@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Erik Cupsa's Coding Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my coding portfolio! This web application is built using ReactJs with Sass styling, showcasing my skills, projects, and achievements in the field of web development. You can check it out [here!](https://erikc-portfolio.vercel.app/)
 
-## Available Scripts
+<img width="1160" alt="Screenshot 2024-06-15 at 1 20 54 AM" src="https://github.com/Erik-Cupsa/PortfolioWebsite/assets/86483911/3158d670-8cea-428a-8308-32c6b50f4de0">
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Introduction
 
-### `npm run build`
+This portfolio is a personalized space for me to highlight my expertise, share my projects, and provide information about my coding journey. The application offers an interactive and user-friendly experience for visitors to explore my work and get in touch with me.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Responsive Design:** The portfolio is designed to be accessible and visually appealing across various devices and screen sizes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Project Showcase:** I can display his coding projects with detailed information, including technologies used, project descriptions, and live demo links.
 
-### `npm run eject`
+- **Skills Section:** A dedicated section to showcase my skills and proficiency in different programming languages, frameworks, and tools.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Contact Form:** An interactive contact form allowing visitors to reach out to me directly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this portfolio locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git](https://github.com/Erik-Cupsa/PortfolioWebsite.git`
 
-## Learn More
+2. Navigate to the project directory: `cd PortfolioWebsite`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies: `npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server: `npm start`
 
-### Code Splitting
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+- ReactJs: A JavaScript library for building user interfaces.
+- Sass: A CSS preprocessor that enhances the styling capabilities of the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
+The project structure follows a standard React application layout. Key directories include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `src/components`: Contains React components used to build different sections of the portfolio.
+- `src/styles`: Sass files for styling the application.
+- `public`: Static assets and the `index.html` file.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If you'd like to contribute to this project, please follow the [Contributing Guidelines](CONTRIBUTING.md).
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out my Coding Portfolio! If you have any questions or feedback, feel free to reach out.
