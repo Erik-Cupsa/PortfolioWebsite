@@ -133,9 +133,10 @@
             height: 200px; 
             max-width: calc(50% - 10px);
             .content{
+                position: none;
                 transition: none;
                 bottom: 0px;
-                height: 200px;
+                background: transparent;
             }
         }
         .images-container {
