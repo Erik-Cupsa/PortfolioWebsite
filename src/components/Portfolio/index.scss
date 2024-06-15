@@ -132,6 +132,9 @@
         .image-box{
             height: 200px; 
             max-width: calc(50% - 10px);
+            .content{
+                transition: none;
+            }
         }
         .images-container {
             display: flex;
