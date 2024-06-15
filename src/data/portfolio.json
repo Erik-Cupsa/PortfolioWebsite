@@ -1,28 +1,47 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/McGill.png", 
+            "title": "Exam Scheduler", 
+            "description": "ReactJS, PostgreSQL, Spring Boot", 
+            "url": "https://mcgillscheduler.vercel.app/"
+        },
+        {
             "cover": "/portfolio/FPL.png", 
             "title": "PremierZone", 
-            "description": "React, Python, PostgreSQL, Spring Boot", 
+            "description": "ReactJS, PostgreSQL, Spring Boot", 
             "url": "https://premierzone.netlify.app/"
+        },
+
+        {
+            "cover": "/portfolio/PLPredictor.png", 
+            "title": "PL Match Predictor", 
+            "description": "Python, Sci-kit Learn, Pandas", 
+            "url": "https://github.com/Erik-Cupsa/Soccer-Match-Predictor"
+        },
+        {
+            "cover": "/portfolio/GymTech.png", 
+            "title": "GymTech", 
+            "description": "ReactJS, PostgreSQL, Spring Boot", 
+            "url": "https://github.com/Erik-Cupsa/GymTech"
+        },
+        {
+            "cover": "/portfolio/RateMySchools.png", 
+            "title": "Rate My Schools", 
+            "description": "ReactJS, PostgreSQL, Spring Boot", 
+            "url": "www.ratemyschools.ca"
         },
         {
             "cover": "/portfolio/Chatbot.png", 
             "title": "StudySmartBot", 
-            "description": "React, Python, Spring Boot, Web Sockets", 
+            "description": "ReactJS, NodeJS, Web Sockets", 
             "url": "https://studysmartbot.netlify.app/"
         }, 
-        {
-            "cover": "/portfolio/PLPredictor.png", 
-            "title": "PL Match Predictor", 
-            "description": "Python, Machine Learning", 
-            "url": "https://github.com/Erik-Cupsa/Soccer-Match-Predictor"
-        },
         {
             "cover": "/portfolio/Jetpack.png", 
             "title": "Super GTA Adventure", 
             "description": "HTML, CSS, JavaScript", 
-            "url": "https://github.com/Erik-Cupsa/SuperGTAAdventure"
+            "url": "https://super-gta-adventure.vercel.app/"
         }
     ]
 }
