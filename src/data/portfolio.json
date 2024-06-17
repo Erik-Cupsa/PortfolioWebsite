@@ -10,7 +10,7 @@
             "cover": "/portfolio/FPL.png", 
             "title": "PremierZone", 
             "description": "ReactJS, PostgreSQL, Spring Boot", 
-            "url": "https://premierzone.netlify.app/"
+            "url": "https://premierzone.vercel.app/"
         },
 
         {
