@@ -7,12 +7,11 @@
             "url": "https://mcgillscheduler.vercel.app/"
         },
         {
-            "cover": "/portfolio/FPL.png", 
-            "title": "PremierZone", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
-            "url": "https://premierzone.vercel.app/"
+            "cover": "/portfolio/Empor.png", 
+            "title": "Empor", 
+            "description": "NextJS, Prisma, Spring Boot", 
+            "url": "https://www.empor.ca"
         },
-
         {
             "cover": "/portfolio/PLPredictor.png", 
             "title": "PL Match Predictor", 
@@ -20,22 +19,29 @@
             "url": "https://github.com/Erik-Cupsa/Soccer-Match-Predictor"
         },
         {
+            "cover": "/portfolio/FPL.png", 
+            "title": "PremierZone", 
+            "description": "ReactJS, PostgreSQL, Spring Boot", 
+            "url": "https://premierzone.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/JwtImage.png", 
+            "title": "Spring Security Tutorial", 
+            "description": "Spring Boot, JWT", 
+            "url": "https://youtu.be/uZGuwX3St_c?si=jIITQc20dXuGoOAP"
+        },
+        {
             "cover": "/portfolio/GymTech.png", 
             "title": "GymTech", 
             "description": "ReactJS, PostgreSQL, Spring Boot", 
             "url": "https://github.com/Erik-Cupsa/GymTech"
         },
-        {
-            "cover": "/portfolio/RateMySchools.png", 
-            "title": "Rate My Schools", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
-            "url": "www.ratemyschools.ca"
-        },
+
         {
             "cover": "/portfolio/Chat.png", 
             "title": "StudySmartBot", 
             "description": "ReactJS, NodeJS, Web Sockets", 
-            "url": "https://studysmartbot.netlify.app/"
+            "url": "https://github.com/Erik-Cupsa/StudySmartBot"
         }, 
         {
             "cover": "/portfolio/Jetpack.png", 
