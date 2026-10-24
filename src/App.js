@@ -13,7 +13,7 @@ import Dev from './components/About/Dev';
 
 function App() {
   useEffect(() => {
-    document.title = 'Erik\'s Portfolio';
+    document.title = 'Anthony\'s Portfolio';
   }, []);
 
   return (

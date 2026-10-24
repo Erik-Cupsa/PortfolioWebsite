@@ -23,3 +23,9 @@ body {
     overflow: visible;
   }
 }
+
+@media screen and (max-width: 1000px){
+  body {
+    background: #F4F5F7;
+  }
+}

@@ -54,15 +54,15 @@ const Contact = () => {
                                 </h1>
                                 <p>
                                     <br/>
-                                    Thank you for your interest in getting in touch! 
+                                    Let's connect! 
                                     <br/>
-                                    <br/>I value open communication and welcome any inquiries, feedback, or collaboration opportunities. Please don't hesitate to get in touch with me by filling out the contact form.
+                                    <br/>I'm happy to take any inquiries, feedback, or collaboration opportunities. Feel free to contact me via this form.
                                     <br/>
                                     <br/>
-                                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/erik-cupsa/">
+                                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/anthony-tian-54a64134a/">
                                         <FontAwesomeIcon icon={faLinkedin}  class = "icon" color = "#4d4d4e" />
                                     </a>
-                                    <a target = "_blank" rel = "noreferrer" href = "mailto:ErikCupsa@gmail.com">
+                                    <a target = "_blank" rel = "noreferrer" href = "mailto:tian.ruy@northeastern.edu">
                                         <FontAwesomeIcon icon={faEnvelope} class = "icon" color = "#4d4d4e" />
                                     </a>
                                 </p>
@@ -94,7 +94,7 @@ const Contact = () => {
                     </table>
                 </div>
             </div>
-            <Loader type="pacman" />
+            <Loader type="line-scale" />
         </>
     )
 }

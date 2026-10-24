@@ -1,53 +1,21 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/McGill.png", 
-            "title": "Exam Scheduler", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
-            "url": "https://mcgillscheduler.vercel.app/"
+            "cover": "/portfolio/restaurant-reviews-dashboard.png", 
+            "title": "Restaurant Reviews Analysis Dashboard", 
+            "description": "Python, XGBoost, Scikit-learn, Cross-Validation, Permutation Importance, NLP, JS, SerpAPI",
+            "url": "https://boston-shawarma-reviews-dashboard.vercel.app/"
         },
         {
-            "cover": "/portfolio/Empor.png", 
-            "title": "Empor", 
-            "description": "NextJS, Prisma, Spring Boot", 
-            "url": "https://www.empor.ca"
+            "cover": "/portfolio/boxing-app-webpage.png", 
+            "title": "Live Boxing Form Grader", 
+            "description": "Python, MediaPipe, OpenCV, Visual Data Processing, Motion Tracking, Real-Time Analytics",
+            "url": "https://boxing-form-grader.vercel.app/"
         },
         {
-            "cover": "/portfolio/PLPredictor.png", 
-            "title": "PL Match Predictor", 
-            "description": "Python, Sci-kit Learn, Pandas", 
-            "url": "https://github.com/Erik-Cupsa/Soccer-Match-Predictor"
-        },
-        {
-            "cover": "/portfolio/FPL.png", 
-            "title": "PremierZone", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
-            "url": "https://premierzone.vercel.app/"
-        },
-        {
-            "cover": "/portfolio/JwtImage.png", 
-            "title": "Spring Security Tutorial", 
-            "description": "Spring Boot, JWT", 
-            "url": "https://youtu.be/uZGuwX3St_c?si=jIITQc20dXuGoOAP"
-        },
-        {
-            "cover": "/portfolio/GymTech.png", 
-            "title": "GymTech", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
-            "url": "https://github.com/Erik-Cupsa/GymTech"
-        },
-
-        {
-            "cover": "/portfolio/Chat.png", 
-            "title": "StudySmartBot", 
-            "description": "ReactJS, NodeJS, Web Sockets", 
-            "url": "https://github.com/Erik-Cupsa/StudySmartBot"
-        }, 
-        {
-            "cover": "/portfolio/Jetpack.png", 
-            "title": "Super GTA Adventure", 
-            "description": "HTML, CSS, JavaScript", 
-            "url": "https://super-gta-adventure.vercel.app/"
-        }
-    ]
-}
+            "cover": "/portfolio/equity-portfolio.png",
+            "title": "Client-Tailored Retirement Portfolio",
+            "description": "1-on-1 Consulting, Python, Fundamental Analysis, Risk Modeling, Next.js",
+            "url": "https://anthtonyt-equity-portolio-sample.vercel.app/"
+        }]
+    }

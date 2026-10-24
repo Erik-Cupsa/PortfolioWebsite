@@ -1,17 +1,17 @@
-import LogoE from '../../../assets/images/E.png';
+import LogoE2 from '../../../assets/images/E2.png';
 import './index.scss';
 
 const Logo = () => {
 
   return (
     <div className="logo-container">
-      <img className="solid-logo animate" src={LogoE} alt="JavaScript, Developer" />
+      <img className="solid-logo animate" src={LogoE2} alt="JavaScript, Developer" />
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
-        width="274.000000pt"
-        height="230.000000pt"
-        viewBox="0 0 274.000000 230.000000"
+        width="328.8pt"
+        height="276.0pt"
+        viewBox="0 0 328.8 276.0"
         preserveAspectRatio="xMidYMid meet"
         className="svg-container"
       >

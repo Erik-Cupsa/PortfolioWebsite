@@ -2,16 +2,14 @@
     width: 100%; 
     height: 100%; 
     position: absolute; 
-    background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
+    background: #F4F5F7;
 }
-
-
 
 .container { 
     width: 100%; 
     will-change: contents; 
     height: 100%; 
-    min-height: 566px; 
+    min-height: 750px; 
     position: absolute; 
     opacity: 0; 
     top: 5%; 
@@ -22,7 +20,6 @@
     animation-delay: 1s; 
 }
 
-.container.work-page,
 .container.contact-page,
 .container.about-page,
 .container.portfolio-page {
@@ -54,7 +51,7 @@
   margin-bottom: 0;
   padding-bottom: 0;
   &::-webkit-scrollbar {
-    background-color: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
+    background-color: linear-gradient(to bottom, #357DED 20%, #00b4d8 80%);
     width: 8px;
   }
 
@@ -69,7 +66,7 @@
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
-      color: #ffd700;
+      color: #357DED;
       font-weight: 400;
       margin-top: 0;
       position: relative;
@@ -78,7 +75,7 @@
 
       &:before {
         font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
+        color: #357DED;
         font-size: 18px;
         position: absolute;
         margin-top: -10px;
@@ -89,7 +86,7 @@
 
       &:after {
         font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
+        color: #357DED;
         font-size: 18px;
         line-height: 18px;
         position: absolute;
@@ -102,7 +99,7 @@
 
     p {
       font-size: 16px;
-      color: #fff;
+      color: #476ea0;
       font-family: sans-serif;
       font-weight: 500;
       max-width: fit-content;
@@ -120,7 +117,7 @@
 
     h2 {
       font-size: 20px;
-      color: #ffd700;
+      color: #357DED;
       font-family: sans-serif;
       font-weight: 600;
       max-width: fit-content;
@@ -158,7 +155,7 @@
 
   .text-animate-hover {
     &:hover {
-      color: #fff;
+      color: #023e8a;
     }
   }
 }
@@ -174,20 +171,12 @@
   }
 }
 
-.container.work-page {
-  .text-zone{
-    .timeline-container{
-      animation: slideInFromBottom 5s forwards;
-    }
-  }
-}
-
 @media screen and (max-width: 1000px){
   
   .page{
     position: relative;
     min-height: 100vh; 
-    background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
+    background: #F4F5F7; /* same light page as desktop */
   }
   .container{
     position: initial; 
@@ -195,8 +184,7 @@
     min-height: auto;
 
     &.about-page, 
-    &.contact-page, 
-    &.work-page, 
+    &.contact-page,
     &.portfolio-page{
       .text-zone{
         position: initial; 

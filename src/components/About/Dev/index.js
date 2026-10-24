@@ -1,62 +1,79 @@
 import "./index.scss"; 
 import AnimatedLetters from "../../AnimatedLetters"
 import { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPython, faCss3, faJava, faHtml5, faAmazon, faReact } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 import Loader from "react-loaders";
 import DevList from "../DevList";
 
+import pandasLogo from "../../../assets/images/pandas.svg";
+import postgresLogo from "../../../assets/images/postgresql.png";
+import powerbiLogo from "../../../assets/images/powerbi.png";
+import excelLogo from "../../../assets/images/excel.png";
+import lookerLogo from "../../../assets/images/looker.svg";
+import sklearnLogo from "../../../assets/images/scikit.png";
+
 const About = () => {
     
-    const [letterClass, setLetterClass] = useState('text-animate');
+    const [letterClass, setLetterClass] = useState("text-animate");
 
     useEffect(() => {
         const timerId = setTimeout(() => {
-          setLetterClass('text-animate-hover');
+            setLetterClass("text-animate-hover");
         }, 3000);
       
         return () => {
-          clearTimeout(timerId);
+            clearTimeout(timerId);
         };
-      }, []);
+    }, []);
 
     return (
         <>
-            <div className = "container about-page"> 
-                <div className = "text-zone"> 
+            <div className="container about-page"> 
+                <div className="text-zone"> 
                     <h1>
-                        <AnimatedLetters letterClass={letterClass}  strArray = {"About me".split("")} idx={15}/>
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={"About me".split("")}
+                            idx={15}
+                        />
                     </h1>
                     <p>
-                    I am a very ambitious full-stack developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
-                    <br/>
-                    <DevList />
-                    <Link to="/about" className="flat-button">LANGUAGES</Link>
-                    <br/>
-                    <Link to="/about/tech" className="flat-button">FRAMEWORKS/TECHNOLOGIES</Link>
+                        Ambitious data scientist & team player who solves problems creatively with statistics & data, to create direct business value. 
+                        <br/>
+                        <DevList />
+                        <Link to="/about" className="flat-button">LANGUAGES</Link>
+                        <br/>
+                        <Link to="/about/tech" className="flat-button">FRAMEWORKS/TECHNOLOGIES</Link>
                     </p>
                 </div>
-                <div className = "stage-cube-cont">
-                    <div className = "cubespinner"> 
-                        <div className = "face1">
-                            <FontAwesomeIcon icon={faAmazon}/>
+
+                <div className="stage-cube-cont">
+                    <div className="cubespinner">
+
+                        <div className="face1">
+                            <img src={pandasLogo} alt="pandas" style={{ width: "70%" }} />
                         </div>
-                        <div className = "face2">
-                            <FontAwesomeIcon icon={faHtml5} color="#F06529"/>
+
+                        <div className="face2">
+                            <img src={postgresLogo} alt="postgresql" style={{ width: "70%" }} />
                         </div>
-                        <div className = "face3">
-                            <FontAwesomeIcon icon={faCss3} color="#28A4D9"/>
+
+                        <div className="face3">
+                            <img src={powerbiLogo} alt="powerbi" style={{ width: "70%" }} />
                         </div>
-                        <div className = "face4">
-                            <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
+
+                        <div className="face4">
+                            <img src={excelLogo} alt="excel" style={{ width: "70%" }} />
                         </div>
-                        <div className = "face5">
-                            <FontAwesomeIcon icon={faPython} color="#ffd700"/>
+
+                        <div className="face5">
+                            <img src={lookerLogo} alt="looker" style={{ width: "70%" }} />
                         </div>
-                        <div className = "face6">
-                            <FontAwesomeIcon icon={faJava} color="#EC4D28"/>
+
+                        <div className="face6">
+                            <img src={sklearnLogo} alt="scikit-learn" style={{ width: "70%" }} />
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -64,4 +81,5 @@ const About = () => {
         </>
     )
 }
+
 export default About

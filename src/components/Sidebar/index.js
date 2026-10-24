@@ -2,19 +2,14 @@ import './index.scss'
 import { Link, NavLink } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faSuitcase, faFolderOpen, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
-import LogoE from '../../assets/images/E.png'
-import LogoSubtitle from '../../assets/images/logo-sub.png'
-import { faGithub, faLinkedin, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
 const Sidebar = () => {
     const [showNav, setShowNav] = useState(false)
     return(
-        <div className = 'nav-bar'> 
-            <Link className = "logo" to="/"> 
-                <img src = {LogoE} alt="logo" />
-                <img className="sub-logo" src = {LogoSubtitle} alt="slobodan" />
-            </Link>
+        <div className = 'nav-bar'>
+            <Link className = "logo" to="/"></Link>
             <nav className={showNav ? 'mobile-show' : ""}>
                 <NavLink exact="true" activeclassname = "active" to="/">
                     <FontAwesomeIcon icon = {faHome} color = "#4d4d4e" onClick={() => setShowNav(false)} />
@@ -35,23 +30,13 @@ const Sidebar = () => {
             </nav>
             <ul>
                 <li>
-                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/erik-cupsa/">
+                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/anthony-tian-54a64134a/">
                         <FontAwesomeIcon icon={faLinkedin} color = "#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target = "_blank" rel = "noreferrer" href = "https://github.com/Erik-Cupsa">
+                    <a target = "_blank" rel = "noreferrer" href = "https://github.com/showssteamrolls/">
                         <FontAwesomeIcon icon={faGithub} color = "#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a target = "_blank" rel = "noreferrer" href = "https://www.youtube.com/channel/UCgKFOz_KrMbmypWrawtzDQg">
-                        <FontAwesomeIcon icon={faYoutube} color = "#4d4d4e" />
-                    </a>
-                </li>
-                <li>
-                    <a target = "_blank" rel = "noreferrer" href = "https://www.instagram.com/swerikcodes/">
-                        <FontAwesomeIcon icon={faInstagram} color = "#4d4d4e" />
                     </a>
                 </li>
             </ul>
@@ -60,4 +45,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar 
+export default Sidebar

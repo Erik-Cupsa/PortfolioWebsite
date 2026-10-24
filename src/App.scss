@@ -1,7 +1,27 @@
-$primary-color: #ffd700; 
+$primary-color: #275DFA; 
 
 @import 'animate.css'; 
 @import '~loaders.css/src/animations/pacman.scss';
+
+/* ==== FIXED PACMAN COLOR OVERRIDE ==== */
+
+/* the little dots */
+.pacman > div:nth-child(3),
+.pacman > div:nth-child(4),
+.pacman > div:nth-child(5),
+.pacman > div:nth-child(6) {
+    background: #275DFA !important;
+}
+
+/* the pacman body (circle) */
+.pacman > div:nth-child(2) {
+    border-top-color: #275DFA !important;
+    border-left-color: #275DFA !important;
+    border-bottom-color: #275DFA !important;
+
+    /* keep the RIGHT border transparent — this is the mouth opening */
+    border-right-color: transparent !important;
+}
 
 @font-face { 
   font-family:'Helvetica Neue'; 

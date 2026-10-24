@@ -1,5 +1,5 @@
 .nav-bar {
-    background: #181818;
+    background: #275DFA; /* Williams Blue */
     width: 60px;
     height: 100%;
     position: absolute;
@@ -8,205 +8,212 @@
     min-height: 500px;
     transition: width 0.3s ease-in-out;
 
-    // &:hover {
-    //     width: 130px;
-    //     .logo{
-    //         padding: 8px 10px; /* Adjust padding to match expanded width */
-    //         img {
-    //             width: 70%; /* Make the logo fill the expanded width */
-    //         }
-    //         .sub-logo{
-    //             width: 70%;
-    //             padding-left: 12px;
-    //         }
-    //     }
-    //     a{
-    //         &:after{
-    //             font-size: 18px;
-    //         }
-    //     }
-    // }
-    
-    .logo{
-        display: block; 
-        padding: 8px 0; 
-        
-        img { 
-            display: block; 
-            margin: 8px auto; 
-            margin-left: 4px;
-            width: 40px; 
+    .logo {
+        display: block;
+        padding: 8px 0;
+
+        /* MAIN LOGO */
+        img {
+            display: block;
+            margin: 0 auto;                 /* center horizontally */
+            width: 40px;
             height: auto;
-            
-            &.sub-logo { 
-                width: 50px; 
-            }
+            transform: translateX(1px);     /* nudge right */
+        }
+
+        /* SUB-LOGO ("ANT") */
+        img.sub-logo {
+            width: 50px;
+            margin-top: -12px;               /* move upward */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transform: translateX(0px);     /* small right alignment tweak */
         }
     }
-    nav { 
+
+    nav {
         display: block;
-        text-align: center; 
-        position: absolute; 
-        height: 210px; 
-        top: 50%; 
-        margin-top: -120px; 
-        width: 100%; 
+        text-align: center;
+        position: absolute;
+        height: 210px;
+        top: 50%;
+        margin-top: -120px;
+        width: 100%;
 
-        a { 
-            font-size: 22px; 
-            color: #4d4d4e;
-            display: block; 
-            line-height: 51px; 
-            height: 51px; 
-            position: relative; 
-            text-decoration: none; 
+        a {
+            font-size: 22px;
+            color: #ffffff; /* ICON TEXT WHITE */
+            display: block;
+            line-height: 51px;
+            height: 51px;
+            position: relative;
+            text-decoration: none;
 
-            i { 
-                transition: all 0.3s ease-out; 
-            }
-
-            &:hover { 
-                color: #ffd700; 
-                
-                svg { 
-                    opacity: 0; 
-                }
-
-                &:after { 
-                    opacity: 1; 
-                }
-            }
-
-            &:after { 
-                content: ""; 
-                font-size: 9px; 
-                letter-spacing: 2px; 
-                position: absolute; 
-                bottom: 0; 
-                display: block; 
-                width: 100%; 
-                text-align: center; 
-                opacity: 0; 
+            /* FORCE ICONS TO BE WHITE */
+            svg {
+                fill: #ffffff !important;
+                color: #ffffff !important;
                 transition: all 0.3s ease-out;
             }
 
-            &:first-child { 
-                &::after { 
-                    content: 'HOME'; 
+            i {
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover {
+                color: #ffd700; /* HOVER YELLOW */
+
+                svg {
+                    fill: #ffd700 !important;
+                    color: #ffd700 !important;
+                }
+
+                &:after {
+                    opacity: 1;
+                }
+            }
+
+            &:after {
+                content: "";
+                font-size: 9px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+                color: #ffffff; /* LABELS WHITE */
+            }
+
+            &:first-child {
+                &::after {
+                    content: 'HOME';
                 }
             }
         }
 
-        a.about-link { 
-            &:after { 
-                content: "ABOUT";
-            }
-        }
-
-        a.work-link { 
-            &:after { 
-                content: "WORK";
-            }
-        }
-
+        a.about-link { &:after { content: "ABOUT"; } }
+        a.work-link { &:after { content: "WORK"; } }
         a.contact-link { 
             &:after { 
                 content: "CONTACT"; 
                 font-size: 7px; 
-            }
+            } 
         }
         a.portfolio-link { 
             &:after { 
                 content: "PORTFOLIO"; 
                 font-size: 6px; 
-            }
+            } 
         }
 
-        a.active{
-            svg{
-                color: #ffd700; 
+        a.active {
+            svg {
+                fill: #ffd700 !important;
+                color: #ffd700 !important;
             }
         }
     }
 
-    ul { 
-        position: absolute; 
-        bottom: 20px; 
-        width: 100%; 
-        display: block; 
-        padding: 0; 
-        list-style: none; 
-        text-align: center; 
+    ul {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
         margin: 0;
 
-        li { 
+        li {
             a {
-                padding: 7px 0; 
-                display: block; 
-                line-height: 16px; 
+                padding: 7px 0;
+                display: block;
+                line-height: 16px;
 
-                &:hover svg { 
-                    color: #ffd700; 
+                /* SOCIAL ICONS WHITE */
+                svg {
+                    fill: #ffffff !important;
+                    color: #ffffff !important;
+                }
+
+                &:hover svg {
+                    fill: #ffd700 !important;
+                    color: #ffd700 !important;
                 }
             }
         }
     }
 }
-.hamburger-icon, 
-.close-icon { 
+
+.hamburger-icon,
+.close-icon {
     display: none;
 }
-@media screen and (max-width: 1000px){
-    .nav-bar{
-        background: transparent; 
-        position: initial; 
-        height: auto; 
+
+@media screen and (max-width: 1000px) {
+    .nav-bar {
+        background: transparent;
+        position: initial;
+        height: auto;
         min-height: auto;
 
-        ul, nav{
+        ul,
+        nav {
             display: none;
         }
 
-        nav{
-            // display: block; 
-            width: 100%; 
-            height: 100%; 
-            background: #181818;
-            top: 0; 
-            left: 0; 
-            position: fixed; 
-            z-index: 2; 
+        nav {
+            width: 100%;
+            height: 100%;
+            background: #275DFA; /* MOBILE SIDEBAR BLUE */
+            top: 0;
+            left: 0;
+            position: fixed;
+            z-index: 2;
             margin: 0;
 
             a {
-                display: flex; 
+                display: flex;
                 justify-content: center;
-                align-items: center; 
+                align-items: center;
+                color: #ffffff; /* MOBILE TEXT */
+
+                svg {
+                    fill: #ffffff !important;
+                    color: #ffffff !important;
+                }
             }
 
-            a:after{
+            a:after {
                 opacity: 1;
                 position: initial;
                 width: auto;
                 margin-left: 10px;
+                color: #ffffff; /* MOBILE LABELS WHITE */
             }
 
-            a svg {
-                opacity: 1 !important;
-            }
-
-            &.mobile-show { 
+            &.mobile-show {
                 display: block;
             }
         }
-        .hamburger-icon, 
+
+        .hamburger-icon,
         .close-icon {
             display: block;
-            position: absolute; 
-            top: 15px; 
-            right: 15px; 
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            color: #ffffff; /* MENU ICON WHITE */
         }
 
+        /* sit above the page so the menu button can be tapped; stays below the open menu (z-index 2) */
+        .hamburger-icon {
+            z-index: 1;
+            color: #275DFA; /* blue on the light page; the close icon stays white on the blue menu */
+        }
     }
-  }
-  
+}

@@ -1,3 +1,18 @@
+.about-page {
+    background: #F4F5F7 !important;
+}
+
+.about-page h1 {
+    color: #275DFA !important;
+}
+
+.about-page p {
+    color: #275DFA !important;
+}
+
+.about-page h2 {
+    color: #275DFA !important;
+}
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -7,9 +22,9 @@
     position: absolute;
     right: 0;
     overflow: hidden;
-  }
+}
   
-  .cubespinner {
+.cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -30,7 +45,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 0 20px 0px lightyellow;
+      box-shadow: 0 0 20px 0px #275DFA;
     }
   
     .face1 {
@@ -52,9 +67,9 @@
     .face6 {
       transform: rotateX(-90deg) translateZ(150px);
     }
-  }
+}
   
-  @keyframes spincube {
+@keyframes spincube {
     from,
     to {
       transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -74,22 +89,23 @@
     83% {
       transform: rotateX(90deg);
     }
-  }
-  .flat-button { 
-    color: #ffd700; 
+}
+
+.flat-button { 
+    color: #357DED; 
     font-size: 15px; 
     font-weight: 800;
     letter-spacing: 4px;
     text-decoration: none;
     padding: 10px 70px; 
-    border: 2px solid #ffd700; 
+    border: 2px solid #357DED; 
     margin-top: 25px; 
     float: left; 
     animation: fadeIn 1s 1.8s backwards; 
     white-space: nowrap; 
 
     &:hover { 
-        background: #ffd700; 
+        background: #357DED; 
         color: #333;
     }
 }

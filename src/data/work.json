@@ -1,0 +1,95 @@
+{
+    "jobs": [
+        {
+            "id": "klaviyo",
+            "logo": "",
+            "short": "Klaviyo",
+            "company": "Klaviyo",
+            "title": "Data Analyst",
+            "subtitle": "People Analytics Co-op",
+            "kind": "Full-time",
+            "location": "Boston, MA · On-site",
+            "dates": "Jan 2027 – Jun 2027",
+            "caption": [
+                "Incoming Winter/Spring 2027",
+                "(People Operations Team)"
+            ],
+            "bullets": []
+        },
+        {
+            "id": "wayfair",
+            "logo": "",
+            "short": "Wayfair",
+            "company": "Wayfair",
+            "title": "Data Analyst",
+            "subtitle": "YouTube Analytics Co-op",
+            "kind": "Full-time",
+            "location": "Boston, MA · On-site",
+            "dates": "Jan 2026 – Jun 2026",
+            "caption": [
+                "(Youtube Performance Marketing Analytics Team)",
+                "Using data to navigate a complex problem space–– ads.",
+                "My favorite projects throughout my term (all-focused on direct business impact):"
+            ],
+            "bullets": [
+                "ML Conversion Rate Predictor -> efficientized ad spend (~65k/year)",
+                "Individual Ad Performance Dashboard -> saved time/effort by centralizing insights",
+                "Audience Targeting A/B Test -> achieved 46% lower CPM, 1.6x return on ad spend"
+            ]
+        },
+        {
+            "id": "techsalerator",
+            "logo": "",
+            "short": "Techsalerator",
+            "company": "Techsalerator",
+            "title": "Data Consultant",
+            "subtitle": "",
+            "kind": "Internship",
+            "location": "Boston, MA · Remote",
+            "dates": "Nov 2025 – Feb 2026",
+            "caption": [],
+            "bullets": []
+        },
+        {
+            "id": "yiyang",
+            "logo": "",
+            "short": "Yiyang",
+            "company": "Yiyang Education",
+            "title": "Machine Learning Instructor",
+            "subtitle": "",
+            "kind": "Part-time",
+            "location": "Walnut, CA · On-site",
+            "dates": "May 2025 – May 2026",
+            "caption": [
+                "Bringing AI & machine learning to the younger generation, by: breaking down core conceptual intuitions simply, connecting to real-world impact, and designing interactive classwork."
+            ],
+            "bullets": []
+        },
+        {
+            "id": "northeastern-ta",
+            "logo": "",
+            "short": "Northeastern",
+            "company": "Northeastern University",
+            "title": "Graduate TA",
+            "subtitle": "Ecological Economics – PPUA5260",
+            "kind": "Part-time",
+            "location": "Boston, MA",
+            "dates": "Jan 2025 – Jun 2026",
+            "caption": [],
+            "bullets": []
+        },
+        {
+            "id": "ocdl",
+            "logo": "",
+            "short": "OC Debate",
+            "company": "Orange County Debate League",
+            "title": "Assistant Debate Instructor",
+            "subtitle": "",
+            "kind": "Part-time",
+            "location": "",
+            "dates": "Nov 2022 – July 2023",
+            "caption": [],
+            "bullets": []
+        }
+    ]
+}
